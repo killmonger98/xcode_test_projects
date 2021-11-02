@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '14.0'
+
+def sharedpods
+    pod 'Kingfisher', '~> 4.0'
+end
+
+target 'IHProgressTesting' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+pod 'IHProgressHUD', :git => 'https://github.com/Swiftify-Corp/IHProgressHUD.git'
+  # Pods for IHProgressTesting
+
+end
+
+target 'IHProgressTesting2' do
+  pod 'AFNetworking', '~> 3.0'
+  sharedpods
+end

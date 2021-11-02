@@ -1,0 +1,46 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - IHProgressHUD (0.1.5)
+  - Kingfisher (4.10.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - IHProgressHUD (from `https://github.com/Swiftify-Corp/IHProgressHUD.git`)
+  - Kingfisher (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Kingfisher
+
+EXTERNAL SOURCES:
+  IHProgressHUD:
+    :git: https://github.com/Swiftify-Corp/IHProgressHUD.git
+
+CHECKOUT OPTIONS:
+  IHProgressHUD:
+    :commit: 84b65368d4c106e785c89ed5a75ba90111633d43
+    :git: https://github.com/Swiftify-Corp/IHProgressHUD.git
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  IHProgressHUD: 554f1e4cb088cf82c238dc1c607f5fadfd81ab89
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+
+PODFILE CHECKSUM: a64a927df5a9e40062ca4c5a96937bcb612da0cd
+
+COCOAPODS: 1.10.0

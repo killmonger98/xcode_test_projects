@@ -1,0 +1,11 @@
+platform :ios, '12.0'
+
+target 'TestingSVProgress' do
+  use_frameworks!
+
+  # Pods for TestingSVProgress
+
+pod 'SVProgressHUD'
+pod 'Alamofire', '~> 5.2'
+
+end

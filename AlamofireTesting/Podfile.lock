@@ -1,0 +1,27 @@
+
+#A podspec describes a version of a pod. Over the course of time, a pod will have many podspecs.
+
+PODS:
+  - Alamofire (5.4.0)
+
+#It’s the list of all the pods with the specified version argument written in your podfile.
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+
+#It’s the list of all of the pods installed, including the dependencies.
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+#To make sure that your pods have the same version as the Podspec, CocoaPods makes a checksum of the JSON representation of your Podspec.
+
+SPEC CHECKSUMS:
+  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+
+#This is the checksum of the podfile, in order to make sure it didn’t changed.
+
+PODFILE CHECKSUM: 8fb98d564eb176fd66d6cdc0e533d3105d92b8cc
+
+COCOAPODS: 1.10.0
